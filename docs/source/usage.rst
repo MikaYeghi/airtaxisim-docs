@@ -18,7 +18,7 @@ Next, install the required Python packages (see [doc/tools_installation.md](doc/
 
    $ python3 -m pip install loguru
 
-Running the simulator
+Running the Simulator
 --------------------
 
 You can run a sample simulation using the provided configuration files:
@@ -33,7 +33,6 @@ This will launch the AirTaxiSim environment with a sample VTOL vehicle in a stat
 .. note::
 
    AirTaxiSim supports advanced features such as multi-agent simulations,
-   edge-case testing, and dataset generation. See the :doc:`api` and
-   :doc:`configs` sections for more details.
+   edge-case testing, and dataset generation. See the :doc:`api` section for more details.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
