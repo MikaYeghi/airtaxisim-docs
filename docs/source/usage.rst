@@ -6,29 +6,34 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use AirTaxiSim, first clone the repository with submodules:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   $ git clone https://github.com/CPS-IL/airtaxisim.git --recurse-submodules
 
-Creating recipes
-----------------
+Next, install the required Python packages (see [doc/tools_installation.md](doc/tools_installation.md) for details):
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+.. code-block:: console
 
-.. autofunction:: lumache.get_random_ingredients
+   $ python3 -m pip install loguru
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+Running the simulator
+--------------------
 
-.. autoexception:: lumache.InvalidKindError
+You can run a sample simulation using the provided configuration files:
 
-For example:
+.. code-block:: console
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+   $ cd airtaxisim
+   $ python3 rraaa.py configs/single-static-jaxguam.yml
 
+This will launch the AirTaxiSim environment with a sample VTOL vehicle in a static urban scenario.
+
+.. note::
+
+   AirTaxiSim supports advanced features such as multi-agent simulations,
+   edge-case testing, and dataset generation. See the :doc:`api` and
+   :doc:`configs` sections for more details.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
