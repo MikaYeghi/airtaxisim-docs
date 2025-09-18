@@ -19,7 +19,7 @@ Next, install the required Python packages (see [doc/tools_installation.md](doc/
    $ python3 -m pip install loguru
 
 Running the Simulator
---------------------
+---------------------
 
 You can run a sample simulation using the provided configuration files:
 
