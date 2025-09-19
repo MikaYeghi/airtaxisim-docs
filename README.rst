@@ -1,9 +1,18 @@
-Template for the Read the Docs tutorial
-=======================================
+AirTaxiSim Documentation
+========================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This repository contains the documentation for the AirTaxiSim simulator,
+a Python library for simulating urban air taxi operations.
 
-Read the tutorial here:
+It is intended to provide:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+- Installation instructions
+- Tutorials and examples
+- API references
+- Design and architecture notes
+
+The documentation is built with Sphinx and hosted on Read the Docs.
+
+Read the documentation here:
+
+https://airtaxisim.readthedocs.io/
