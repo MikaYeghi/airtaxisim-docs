@@ -1,9 +1,9 @@
-Installation
-============
+Quick Start
+===========
 
 AirTaxiSim is a Python-based simulator for autonomous air taxis operating
-in urban environments. The project is primarily developed and tested on
-Linux systems.
+in dense urban environments. This guide walks you through installing the
+required dependencies and running a basic simulation.
 
 Prerequisites
 -------------
@@ -15,12 +15,12 @@ Prerequisites
 - Python 3.8+
 
 Detailed instructions for installing Docker and the NVIDIA Container Toolkit
-are provided in:
+are available in:
 
 ``doc/tools_installation.md``
 
-Cloning the repository
-----------------------
+Clone the Repository
+--------------------
 
 Clone the repository **with submodules**:
 
@@ -28,25 +28,25 @@ Clone the repository **with submodules**:
 
    $ git clone https://github.com/CPS-IL/airtaxisim.git --recurse-submodules
 
-Python dependencies
+Python Dependencies
 -------------------
 
-Install the required Python packages:
+Install the required Python package:
 
 .. code-block:: console
 
    $ python3 -m pip install loguru
 
-Running AirTaxiSim
-------------------
+Run a Sample Simulation
+-----------------------
 
-Once the installation is complete, you can run a basic simulation using one
-of the provided configuration files:
+After installation, launch AirTaxiSim using one of the provided configuration
+files:
 
 .. code-block:: console
 
    $ cd airtaxisim
    $ python3 rraaa.py configs/single-static-jaxguam.yml
 
-This will launch AirTaxiSim with a sample VTOL vehicle in a static urban
-environment.
+This starts a sample simulation with a VTOL vehicle operating in a static
+urban environment.
