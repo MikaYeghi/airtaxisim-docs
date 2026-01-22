@@ -6,18 +6,47 @@ operating in urban environments. It provides realistic vehicle dynamics,
 environment simulation, path planning, and perception modules for
 research and testing of aerial mobility systems.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
 .. note::
 
-   This project is under active development and continuously updated
-   with new simulation features and improvements.
-
-Contents
---------
+   This project is under active development and continuously updated.
 
 .. toctree::
+   :caption: Getting started
+   :maxdepth: 2
 
    usage
+   installation
+
+.. toctree::
+   :caption: Tutorials
+   :maxdepth: 2
+
+   tutorial1
+   tutorial2
+
+.. toctree::
+   :caption: How-to guides
+   :maxdepth: 2
+
+   guide1
+   guide2
+
+.. toctree::
+   :caption: References
+   :maxdepth: 2
+
+   reference1
+   reference2
+
+.. toctree::
+   :caption: Explanation
+   :maxdepth: 2
+
+   explanation1
+   explanation2
+
+.. toctree::
+   :caption: API reference
+   :maxdepth: 2
+
    api
