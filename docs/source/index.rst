@@ -28,19 +28,11 @@ research and testing of aerial mobility systems.
 
    guide-01_integrate_docker_container
 
-.. .. toctree::
-..    :caption: References
-..    :maxdepth: 2
-
-..    reference1
-..    reference2
-
 .. toctree::
    :caption: Explanation
    :maxdepth: 2
 
    explanation-01_system_architecture
-   explanation2
 
 .. toctree::
    :caption: API reference
