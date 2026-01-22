@@ -14,7 +14,6 @@ research and testing of aerial mobility systems.
    :caption: Getting started
    :maxdepth: 2
 
-   usage
    installation
 
 .. toctree::
