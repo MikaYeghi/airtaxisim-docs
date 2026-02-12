@@ -1,5 +1,5 @@
 How-to Guide 2: Running Custom Scenarios
-=======================================
+========================================
 
 This guide explains how to create and run custom simulation scenarios.
 

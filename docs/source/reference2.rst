@@ -1,5 +1,5 @@
 Reference 2: Command-Line Interface
-==================================
+===================================
 
 This page documents the command-line interface (CLI) provided by AirTaxiSim.
 
